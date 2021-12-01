@@ -51,7 +51,6 @@ func tripleDiff(f []int64) {
 // Main function runs when running the main package
 func main() {
 	var f_int []int64
-
 	f, err := ioutil.ReadFile("input1.txt")
 	f_str := strings.Fields(string(f))
 	check(err)
